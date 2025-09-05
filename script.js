@@ -18,10 +18,10 @@ window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 50) {
         header.style.padding = '0.5rem 0';
-        header.style.backgroundColor = 'rgba(26, 71, 42, 0.95)';
+        header.style.backgroundColor = '#967969';
     } else {
         header.style.padding = '0.8rem 0';
-        header.style.backgroundColor = 'rgba(26, 71, 42, 0.85)';
+        header.style.backgroundColor = '#967969';
     }
 });
 

@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
             justify-content: center;
             align-items: center;
             padding: 2rem;
-            background: linear-gradient(135deg, #1a472a 0%, #2e6b41 100%);
+            background: linear-gradient(135deg, #967969 0%, #967969 100%);
             color: #ffffff;
             text-align: center;
             opacity: 0;
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 12px;
             height: 12px;
             border-radius: 50%;
-            background-color: #2e6b41;
+            background-color: #ffffffff;
             opacity: 0.5;
             margin: 0 0.5rem;
             cursor: pointer;
