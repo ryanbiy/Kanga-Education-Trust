@@ -12,19 +12,17 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
 }));
-
-// Header scroll effect
-window.addEventListener('scroll', () => {
-    const header = document.querySelector('header');
-    if (window.scrollY > 50) {
-        header.style.padding = '0.5rem 0';
-        header.style.backgroundColor = '#967969';
-    } else {
-        header.style.padding = '0.8rem 0';
-        header.style.backgroundColor = '#967969';
-    }
-});
-
+  // Header scroll effect
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.style.padding = '0.5rem 0';
+            header.style.backgroundColor = '#000000ff';
+        } else {
+            header.style.padding = '0.8rem 0';
+            header.style.backgroundColor = '#000000ff';
+        }
+    });
 // Scroll animation for sections
 const sections = document.querySelectorAll('.section');
 
